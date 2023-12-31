@@ -1,0 +1,12 @@
+#profile > .text-center > h1 {
+  color: #45b29a;
+}
+
+#footer {
+  background-color: #c5ded7;
+}
+
+#footer span,
+a {
+  color: #45b29a;
+}
