@@ -1,12 +1,28 @@
+#header {
+  background-color: #9a9fd2;
+}
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #c28689;
+}
+
+.nav {
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: #c28689;
+}
+
 #profile > .text-center > h1 {
   color: #9a9fd2;
 }
 
+h2 {
+  background-color: #9a9fd2;
+}
+
 #footer {
-  background-color: #c5ded7;
+  background-color: #9a9fd2;
 }
 
 #footer span,
 a {
-  color: #45b29a;
+  color: #cab762;
 }

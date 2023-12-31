@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <section id="image">
+      <div class="bd-example-snippet bd-code-snippet">
+        <div class="bd-example m-0 border-0">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg img-fluid"
+            width="100%"
+            height="150"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Responsive image"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#9a9fd2"></rect>
+          </svg>
+        </div>
+      </div>
+    </section>
+
     <section id="header">
       <div class="container">
         <header class="d-flex justify-content-center py-3">
@@ -26,26 +46,6 @@
             <li class="nav-item"><a href="#" class="nav-link">RESUME</a></li>
           </ul>
         </header>
-      </div>
-    </section>
-
-    <section id="image">
-      <div class="bd-example-snippet bd-code-snippet">
-        <div class="bd-example m-0 border-0">
-          <svg
-            class="bd-placeholder-img bd-placeholder-img-lg img-fluid"
-            width="100%"
-            height="250"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: Responsive image"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#45b29a"></rect>
-          </svg>
-        </div>
       </div>
     </section>
 
@@ -67,18 +67,18 @@
             contribute to team success through hard work, attention to detail,
             and excellent problem-solving skills.
           </p>
-          <div class="columns contact-details">
-            <h2>Contact Details</h2>
-            <p class="address">
-              <span
-                >Mobile: +358 45 1588527<br />Email: jingdingdu@gmail.com<br />Address:
-                Ilmarinkatu 27, 33500 Tampere, Finland<br
-              /></span>
-            </p>
-          </div>
+          <p>
+            <span
+              >Mobile: +358 45 1588527<br />Email: jingdingdu@gmail.com<br />Address:
+              Ilmarinkatu 27, 33500 Tampere, Finland<br
+            /></span>
+          </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <a href="https://github.com/jingjingyang0803?tab=repositories"
-              ><button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              ><button
+                type="button"
+                class="btn btn-secondary btn-lg px-4 gap-3"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1em"
@@ -123,18 +123,18 @@
     </section>
 
     <section id="edu">
-      <div class="container px-4 py-5" id="hanging-icons">
+      <div class="container px-4 pt-5" id="hanging-icons">
         <h2 class="pb-2 border-bottom">Education</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2em"
                 height="2em"
-                fill="#45b29a"
+                fill="#CAB762"
                 class="bi bi-award-fill"
                 viewBox="0 0 16 16"
               >
@@ -158,13 +158,13 @@
           </div>
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2em"
                 height="2em"
-                fill="#45b29a"
+                fill="#CAB762"
                 class="bi bi-backpack2-fill"
                 viewBox="0 0 16 16"
               >
@@ -533,11 +533,11 @@
       <div class="container marketing">
         <h2 class="pb-2 border-bottom">Projects</h2>
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
+          <div class="col-md-7 mt-5">
+            <h3 class="featurette-heading fw-normal lh-1">
               ToDo List Application.
               <h4>React.js, Express, MongoDB, Docker, CI/CD, cross-env</h4>
-            </h2>
+            </h3>
             <p class="lead">
               This ToDo app offers a user-friendly platform for managing tasks
               with features like quick task addition, single and batch editing,
@@ -558,11 +558,11 @@
         <hr class="featurette-divider" />
 
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">
+          <div class="col-md-7 order-md-2 mt-5">
+            <h3 class="featurette-heading fw-normal lh-1">
               TAMK Weather Station
               <h4>HTML/CSS, jQuery, ECharts, AJAX</h4>
-            </h2>
+            </h3>
             <p class="lead">
               This project is designed to provide real-time weather information
               in a user-friendly web application. It fetches the latest weather
@@ -583,11 +583,11 @@
         <hr class="featurette-divider" />
 
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
+          <div class="col-md-7 mt-5">
+            <h3 class="featurette-heading fw-normal lh-1">
               Time Tracker project
               <h4>React, JSON Server, CRUD, Drag-and-Drop, chart.js</h4>
-            </h2>
+            </h3>
             <p class="lead">
               This project focuses on creating a user-friendly React single-page
               application for tracking tasks, managing tags, and providing
@@ -604,14 +604,12 @@
           </div>
         </div>
 
-        <hr class="featurette-divider" />
-
         <!-- /END THE FEATURETTES -->
       </div>
     </section>
 
     <section id="footer">
-      <div class="container">
+      <div class="container mt-5">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3"
         >
@@ -636,7 +634,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="2em"
                   height="2em"
-                  fill="currentColor"
+                  fill="#CAB762"
                   class="bi bi-envelope-fill"
                   viewBox="0 0 16 16"
                 >
@@ -651,7 +649,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="1.75em"
                   height="1.75em"
-                  fill="currentColor"
+                  fill="#CAB762"
                   class="bi bi-linkedin"
                   viewBox="0 0 16 16"
                 >
@@ -666,7 +664,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="2em"
                   height="2em"
-                  fill="currentColor"
+                  fill="#CAB762"
                   class="bi bi-github"
                   viewBox="0 0 16 16"
                 >
@@ -677,6 +675,26 @@
             </li>
           </ul>
         </footer>
+      </div>
+    </section>
+
+    <section id="image2">
+      <div class="bd-example-snippet bd-code-snippet">
+        <div class="bd-example m-0 border-0">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg img-fluid"
+            width="100%"
+            height="50"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Responsive image"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#9a9fd2"></rect>
+          </svg>
+        </div>
       </div>
     </section>
 
