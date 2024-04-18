@@ -1,5 +1,8 @@
 #header {
-  background-color: #9a9fd2;
+  background-color: teal;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
 }
 .nav-pills {
   --bs-nav-pills-link-active-bg: #c28689;
@@ -11,11 +14,43 @@
 }
 
 #profile > .text-center > h1 {
-  color: #9a9fd2;
+  color: teal;
 }
 
-h2 {
-  background-color: #9a9fd2;
+.lead strong {
+  font-size: 1.25em;
+}
+
+#edu .btn {
+  background-color: teal;
+}
+
+#skills-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: teal;
+  height: 100px;
+  width: 90%;
+  border-radius: 8px;
+}
+
+#skillset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills-type .btn {
+  background-color: white;
+  border-color: teal;
+  color: teal;
+}
+
+#projects img {
+  border-radius: px;
 }
 
 #footer {
