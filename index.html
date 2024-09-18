@@ -186,7 +186,7 @@
     <section id="skills">
       <div class="container px-4 py-3" id="icon-grid">
         <div
-          class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4 py-5"
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 py-5"
           id="skills-row"
         ></div>
       </div>
@@ -806,8 +806,8 @@
           colDiv.classList.add(
             "col",
             "d-flex",
-            "align-items-center", // Changed to align-items-center
-            "justify-content-center"
+            "align-items-right",
+            "justify-content-start"
           );
 
           // Create the anchor tag
@@ -815,16 +815,24 @@
           anchor.href = skill.link;
           anchor.target = "_blank";
           anchor.rel = "noreferrer";
+          anchor.classList.add("d-flex", "align-items-center"); // Flexbox container to align image and text
 
           // Handle image elements
           const img = document.createElement("img");
           img.src = skill.src;
           img.alt = skill.alt;
           img.title = skill.title;
-          img.style.width = "auto";
-          img.style.height = "100px";
-          img.style.marginBottom = "15px";
+          img.style.width = "50px";
+          img.style.marginRight = "10px"; // Add space between the image and text
+
+          // Create the span tag for the skill name
+          const textSpan = document.createElement("span");
+          textSpan.textContent = skill.title;
+          textSpan.style.fontSize = "26px";
+
+          // Append image and text to the anchor
           anchor.appendChild(img);
+          anchor.appendChild(textSpan);
 
           // Append anchor to the column div
           colDiv.appendChild(anchor);
