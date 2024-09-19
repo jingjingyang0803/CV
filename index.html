@@ -757,19 +757,19 @@
         {
           src: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Microsoft_Word_2013-2019_logo.svg",
           alt: "word",
-          title: "Microsoft Word",
+          title: "Ms Word",
           link: "https://www.tutorialspoint.com/word/index.htm",
         },
         {
           src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/1200px-Microsoft_Excel_2013-2019_logo.svg.png",
           alt: "excel",
-          title: "Microsoft Excel",
+          title: "Excel",
           link: "https://www.w3schools.com/excel/index.php",
         },
         {
           src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQwOhBnrxzIfgsB8Tx6iDU3DRHZh4gpHF2qg&s",
           alt: "powerpoint",
-          title: "Microsoft PowerPoint",
+          title: "PowerPoint",
           link: "https://www.javatpoint.com/powerpoint-tutorial",
         },
         {
@@ -806,7 +806,7 @@
           colDiv.classList.add(
             "col",
             "d-flex",
-            "align-items-right",
+            "align-items-start",
             "justify-content-start"
           );
 
@@ -815,14 +815,14 @@
           anchor.href = skill.link;
           anchor.target = "_blank";
           anchor.rel = "noreferrer";
-          anchor.classList.add("d-flex", "align-items-center"); // Flexbox container to align image and text
+          anchor.classList.add("d-flex", "align-items-end"); // Flexbox container to align image and text
 
           // Handle image elements
           const img = document.createElement("img");
           img.src = skill.src;
           img.alt = skill.alt;
           img.title = skill.title;
-          img.style.width = "50px";
+          img.style.width = "45px";
           img.style.marginRight = "10px"; // Add space between the image and text
 
           // Create the span tag for the skill name
