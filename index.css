@@ -25,6 +25,10 @@
   background-color: teal;
 }
 
+#certifications .btn {
+  background-color: teal;
+}
+
 #skills-type {
   display: flex;
   justify-content: center;
